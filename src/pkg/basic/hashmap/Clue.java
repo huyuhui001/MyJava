@@ -1,4 +1,4 @@
-package package_hashmap_arraylist;
+package pkg.basic.hashmap;
 
 public class Clue {
 

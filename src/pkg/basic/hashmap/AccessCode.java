@@ -1,4 +1,4 @@
-package package_hashmap;
+package pkg.basic.hashmap;
 
 public class AccessCode {
 
