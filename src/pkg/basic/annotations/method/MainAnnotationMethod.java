@@ -2,7 +2,7 @@
  * it's to practice annotation type with METHOD
  */
 
-package package_annotation_method;
+package pkg.basic.annotations.method;
 
 import java.lang.annotation.*;
 import java.lang.reflect.*;
