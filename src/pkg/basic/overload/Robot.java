@@ -1,4 +1,4 @@
-package package_overload;
+package pkg.basic.overload;
 
 public class Robot {        
 	String color;        
