@@ -32,7 +32,8 @@ package pkg.basic.hashmap;
 import java.util.ArrayList;
 
 public class Story {
-	//Story : Door + AccessCode
+	
+	/*  Story : Door + AccessCode  */
 	public static void main(String args[]) {
 		Door door = new Door();
 		AccessCode accessCodeDoor1 = new AccessCode(1, "12.02.2003");
@@ -45,7 +46,7 @@ public class Story {
 		door.useCode("parrotCake");
 		door.useCode("Eric");
 		
-		//Story: Clue + Bookshelf
+		/*  Story: Clue + Bookshelf  */
 		// create an ArrayList of all clues
 		ArrayList<Clue> clues = new ArrayList<>();
 		Clue clue1 = new Clue("Eric bought books about logic", true);
