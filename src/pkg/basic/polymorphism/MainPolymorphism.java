@@ -11,14 +11,14 @@ public class MainPolymorphism {
 	public static void main(String[] args) {
 		Animal myAnimal = new Cat(); //父类Animal引用子类Cat
 		myAnimal.eat(); //子类Cat重写了父类Animal的非静态成员方法eat()
-		myAnimal.sleep(); //子类Cat重写了父类Animal的静态成员方法sleep()
+		Animal.sleep(); //子类Cat重写了父类Animal的静态成员方法sleep()
 		myAnimal.run(); //父类Animal的非静态成员方法run()
 		System.out.println(myAnimal.num); 
-		System.out.println(myAnimal.age);
+		System.out.println(Animal.age);
 		
 		Cat myCat = (Cat)myAnimal;
 		myCat.eat();
-		myCat.sleep();
+		Cat.sleep();
 		myCat.catchMouse();
 		System.out.println(myCat.name);
 		

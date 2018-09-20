@@ -16,12 +16,12 @@ public class Main {
 	    System.out.println(Vehicle.mph + " --> " + Vehicle.reverse());
 	    
 	    //Class WhatDoesItDo
-	    WhatDoesItDo newWhatDoesItDo = new WhatDoesItDo();
-	    System.out.println("result starts with: " + newWhatDoesItDo.resut); 
+//	    WhatDoesItDo newWhatDoesItDo = new WhatDoesItDo();
+	    System.out.println("result starts with: " + WhatDoesItDo.resut); 
 		for (int i = 0; i < 5; i++) {
 			System.out.println(WhatDoesItDo.count(i));
 		}
-		System.out.println("result ends with: " + newWhatDoesItDo.resut);    //有warning，没有按照static方式访问static变量
+		System.out.println("result ends with: " + WhatDoesItDo.resut);    //有warning，没有按照static方式访问static变量
 		
 		//Class Detective
 		Detective myDetective = new Detective();

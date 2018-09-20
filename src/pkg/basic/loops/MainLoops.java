@@ -3,16 +3,16 @@ package pkg.basic.loops;
 public class MainLoops {
 	public static void main(String[] args) {
 		//WhileLoop
-		new WhileLoop().WhileLoop();
+		new WhileLoop();
 		
 		//ForLoop
-		new ForLoop().ForLoop();
+		new ForLoop();
 		
 		//DoLoop
-		new DoLoop().DoLoop();
+		new DoLoop();
 		
 		//ArrayLoops
-		new ArrayLoops().ArrayLoops();
+		new ArrayLoops();
 	}
 }
 
@@ -20,7 +20,7 @@ public class MainLoops {
 class WhileLoop {
 	double returnNum = 0;
 	
-	void WhileLoop() {
+	WhileLoop() {
 		while (returnNum <= 10) {
 			returnNum = Math.floor(Math.random()*10 + 5);
 			System.out.println(returnNum);
@@ -31,7 +31,7 @@ class WhileLoop {
 
 
 class ForLoop {
-	void ForLoop() {
+	ForLoop() {
 		for(int i = 0; i < 3; i++) {
 			System.out.println("The " + i + " random number is " + Math.floor(Math.random()*100));
 		}
@@ -41,7 +41,7 @@ class ForLoop {
 
 class DoLoop {
 	int x = 1;
-	void DoLoop() {
+	DoLoop() {
 		do {
 			System.out.println("log(" + x + ")=" + Math.log(x));
 			x++;
@@ -54,7 +54,7 @@ class ArrayLoops {
 	int [] numbers = {10, 20, 30, 40, 50};
 	String [] names = {"James", "Tom", "Jerry"};
 	
-	void ArrayLoops() {
+	ArrayLoops() {
 		for(int x : numbers) {
 			if(x == 30) {
 				break;
